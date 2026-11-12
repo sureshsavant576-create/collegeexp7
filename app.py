@@ -5,10 +5,10 @@ def add(a, b):
     return a + b
 
 def subtract(a, b):
-    return a - b
+    return a + b
 
 def multiply(a, b):
-    return a * b
+    return a + b
 
 
 # Automated test cases
@@ -34,3 +34,6 @@ if __name__ == "__main__":
 
     print("\nExecuting Automated Tests...\n")
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
+
+
+
